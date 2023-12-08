@@ -60,6 +60,7 @@ if (isset($_POST['submit'])) {
     echo"<td>".$data["title"]."</td>";
     echo "<td>".$data["add_date"]."</td>";
     echo"<td><a href=\"modif_exe.php?id=".$data["id"]."\">Edit</a></td>";
+    echo"<td><a href=\"supp_exe.php?id=".$data["id"]."\">Delete</a></td>";
     echo "</tr>";
 }
 ?>
